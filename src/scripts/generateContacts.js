@@ -15,9 +15,4 @@ const generateContacts = async (number) => {
   return contacts;
 };
 
-generateContacts(5);
-
-//     (async () => {
-//   const contacts = await generateContacts(5);
-//   console.log(contacts);
-// })();
+await generateContacts(5);
